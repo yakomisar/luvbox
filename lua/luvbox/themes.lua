@@ -183,7 +183,7 @@ return {
                 comment = palette.gray,
                 variable = palette.blue_25,
                 constant = palette.purple,
-                string = palette.green,
+                string = palette.green_0,
                 character = palette.red_05,
                 number = palette.green_13,
                 boolean = palette.blue_21,
