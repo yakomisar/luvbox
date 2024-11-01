@@ -3,8 +3,8 @@ return {
     --- @param config LuvboxConfig
     --- @return LuvboxThemeDark
     dark = function(palette, config)
-        local background = palette.dark_06
-        local statusline_bg = palette.dark_03
+        local background = palette.bg
+        local statusline_bg = palette.bg1
 
         if
             config.custom_dark_background ~= nil
@@ -180,10 +180,10 @@ return {
                 },
             },
             sintax = {
-                comment = palette.green_10,
+                comment = palette.gray,
                 variable = palette.blue_25,
-                constant = palette.blue_20,
-                string = palette.orange_01,
+                constant = palette.purple,
+                string = palette.green,
                 character = palette.red_05,
                 number = palette.green_13,
                 boolean = palette.blue_21,
@@ -191,10 +191,10 @@ return {
                 punctuation = palette.light_07,
                 function_name = palette.yellow_07,
                 operator = palette.light_07,
-                keyword = palette.blue_21,
+                keyword = palette.red,
                 keyword_control_flow = palette.purple_03,
                 macro = palette.blue_21,
-                type = palette.green_08,
+                type = palette.yellow,
                 namespace = palette.green_08,
                 special_char = palette.yellow_06,
                 xml_tag = palette.blue_21,
