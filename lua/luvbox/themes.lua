@@ -181,7 +181,7 @@ return {
             },
             sintax = {
                 comment = palette.gray,
-                variable = palette.blue_25,
+                variable = palette.fg,
                 constant = palette.purple,
                 string = palette.green_0,
                 character = palette.red_05,
